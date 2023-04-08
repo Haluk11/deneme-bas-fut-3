@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>
+        Bas-fut - best website that ever existed!
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+<button onclick="topFunction()" id="TopButton" title="Go to top">Top</button>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/BASFUT.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#Games">Games</a></li>
+                <li><a href="#FVN">Finn Vs Nightmare</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+    <h1>®Best Website®<br>
+        █║▌│█│║▌║││█║▌ ║▌║<br>
+125 681 7 85 8885 62763 5<br><br>
+
+⎝⏠⏝⏠⎠      
+    </h1>
+    <p>
+        KEKW
+    </p>
+    <a href=""class="hero-btn">Click that</a>
+</div>
+</section>
+
+<!--------Games-------->
+
+<section class="games">
+
+    <h1 id="Games">Games</h1>
+    <p>Haluk Productions</p>
+
+    <div class="row">
+            <div class="games-col">
+            <h3>Released</h3>
+            <p>Finn Vs Nightmare</p>
+        </div>
+            <div class="games-col">
+            <h3>In the works</h3>
+            <p>unannounced mobile game</p>
+        </div>
+    </div>
+    
+</section>
+
+
+<!------->
+
+<!---Finn Vs Nightmare section---->
+
+<section class="FVSN">
+    <h1 id="FVN">Finn Vs Nightmare</h1>
+    <p>First ever game released by dev Haluk</p>
+    
+
+    <div class="row2">
+        <div class="InGame">
+            <iframe src="https://giphy.com/embed/5rdEKs3wgkmZ7obT15" width="480" height="270" frameBorder="0" class="giphy-embed1" allowFullScreen></iframe><p>Menu</p>
+            <div class="layer1">
+                
+            </div>
+        </div>
+        <div class="InGame">
+            <iframe src="https://giphy.com/embed/B9yoq7BRgVrg3H6L6B" width="480" height="270" frameBorder="0" class="giphy-embed2" allowFullScreen></iframe><p>WareWolf</p>
+            <div class="layer1">
+                
+            </div>
+        </div>
+    </div>
+        
+
+    <div class="row2">
+        <div class="InGame">
+            <iframe src="https://giphy.com/embed/oBPAaSzVPCJPTyFR6q" width="480" height="270" frameBorder="0" class="giphy-embed3" allowFullScreen></iframe><p>Corridor</p>
+            <div class="layer1">
+                </div>
+                
+                
+            </div>
+        <div class="InGame">
+            <iframe src="https://giphy.com/embed/Om8mB9coaa1f740MQR" width="480" height="270" frameBorder="0" class="giphy-embed4" allowFullScreen></iframe><p>Boss And Finish</p>
+            <div class="layer1">
+                
+            </div>
+    </div>
+    
+</section>
+
+<!---About---->
+
+<section class="about">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <h4 id="AboutMe">About Me</h4>
+    <p>Hello There, I'm Haluk. Currently studying computer engineering and because i let couple of classes got the better of me, i have lots of free time.<br> After searching what to do 
+        other than playing video games, i decided to make a website that will surpass my 7th grade website in any way. I'm still learning new stuff and honing my skills.<br>
+        Remember, quality is never a coinsidence. ^^  </p>
+        <div class="icons">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+            <i class="fa-brands fa-github"></i>
+            <i class="fas fa-fire"></i>
+        </div>
+
+
+</section>
+
+
+
+<!------Javascript  mobile toggle menu  -->
+<script>
+
+ var navLinks = document.getElementById("navLinks"); 
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+
+
+<!------  Go Top buton  -->
+
+<script>
+    //Get the button
+    var topbtn = document.getElementById("TopButton");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topbtn.style.display = "block";
+      } else {
+        topbtn.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+</body>
+</html>
