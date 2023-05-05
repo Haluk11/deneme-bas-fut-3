@@ -1,4 +1,18 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background-color:#1f0335;
 }
+
+a{
+    color:whitesmoke;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+
+  
